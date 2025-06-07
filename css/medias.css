@@ -3,13 +3,15 @@
 /* === <= 768px === */
 @media (max-width: 768px) {
   html, body {
-    overflow: hidden;
+    overflow-x: hidden;       /* ← solo oculta el scroll horizontal */
+    overflow-y: auto;         /* ← permite scroll vertical */
+    height: auto;
   }
 
   .caja_principal,
   .contenido {
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
   }
 
   .contenido {
@@ -150,7 +152,7 @@
   }
 
   .tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
-    width: 30%;
+    width: 50%;
     max-width: 250px;
   }
 
@@ -161,7 +163,7 @@
   }
 
   .cinturon-item img {
-    width: 30%;
+    width: 50%;
     max-width: 200px;
   }
 
