@@ -1,0 +1,177 @@
+/* === RESPONSIVE === */
+
+/* === <= 768px === */
+@media (max-width: 768px) {
+  html, body {
+    overflow: hidden;
+  }
+
+  .caja_principal,
+  .contenido {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .contenido {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .menu_desplegable {
+    width: 250px;
+    left: -250px;
+    z-index: 11;
+  }
+
+  .menu_desplegable .btn_dos i,
+  .btn_uno i {
+    opacity: 1 !important;
+    z-index: 15;
+  }
+
+  .btn_uno i {
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    font-size: 28px;
+  }
+
+  #check:checked ~ .contenido {
+    margin-left: 250px;
+    width: calc(100% - 250px);
+  }
+
+  #check:checked ~ .contenido .header {
+    transform: translateX(250px);
+    transition: transform 0.3s ease;
+  }
+
+  .header {
+    height: 80px;
+    padding: 0 60px 0 70px;
+  }
+
+  .header img{
+    height: 65px;
+    width: auto;
+  }
+
+  .contenido-principal {
+    margin-top: 80px;
+    padding: 20px;
+    margin-bottom: 50px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .seccion-esquinas .esquina {
+    display: none;
+  }
+
+  .footer {
+    padding: 0 15px;
+    font-size: 14px;
+    white-space: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+/*======== <= 480px ========*/
+@media (max-width: 480px) {
+  /* Menú ocupa toda la pantalla y se oculta por defecto */
+  .menu_desplegable {
+    width: 100%;
+    left: -100%;
+    z-index: 1000;
+  }
+
+  /* Al abrir el menú, el contenido queda completamente oculto */
+  #check:checked ~ .contenido {
+    margin-left: 100%;
+    width: 0;
+  }
+
+  /* Asegurarse de que el contenido ocupe 100% al cerrar el menú */
+  .contenido {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  /* Ajustes visuales extra para móviles pequeños */
+  .header {
+    height: 75px;
+    padding-left: 70px;
+  }
+
+  .header img {
+    height: 60px;
+    width: auto;
+  }
+
+  .btn_uno i {
+    top: 20px;
+    left: 25px;
+    font-size: 26px;
+  }
+
+  /*.menu_desplegable .btn_dos i {
+  left: 420px;
+  }*/
+
+  .contenido-principal {
+    padding: 15px;
+    margin-top: 70px;
+  }
+
+  .galeria img {
+    width: 90%;
+    max-width: 280px;
+  }
+
+  .footer {
+    font-size: 13px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .tarjeta_escuela, .tarjeta_cinturones, .tarjeta_historia {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
+    width: 30%;
+    max-width: 250px;
+  }
+
+  .cinturon-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cinturon-item img {
+    width: 30%;
+    max-width: 200px;
+  }
+
+  .cinturon-item p {
+    font-size: 14px;
+  }
+
+  /* Evitar desplazamiento de header/footer en móviles */
+  #check:checked ~ .contenido .header,
+  #check:checked ~ .contenido .footer {
+    transform: none;
+  }
+}
