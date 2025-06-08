@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escuela de Taekwondo Esquel</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="css/medias.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- ====================== HEADER ====================== -->
+  <header class="header">
+
+    <!-- Botón hamburguesa -->
+    <div class="btn_uno">
+      <label for="check" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+      </label>
+    </div>
+    <img src="imagenes/logo.jpg" alt="">
+  </header>
+
+  <!-- ================== MENÚ LATERAL + CONTENIDO ================== -->
+  <div class="caja_principal">
+
+    <!-- Checkbox para abrir/cerrar menú -->
+    <input type="checkbox" id="check" />
+
+    <!-- Menú lateral desplegable -->
+    <nav class="menu_desplegable">
+      <!-- Botón cerrar -->
+      <div class="btn_dos">
+        <label for="check" aria-label="Cerrar menú">
+          <i class="fas fa-times"></i>
+        </label>
+      </div>
+
+      <!-- Enlaces del menú -->
+      <ul class="menu">
+        <a href="index.html"><li>Inicio</li></a>
+        <a href="historia.html"><li>Un poco de historia...</li></a>
+        <a href="cinturones.html"><li>Cinturones y su significado</li></a>
+        <a href="galeria.html"><li>Algunas imagenes...</li></a>
+        <a href="#"><li>Sobre la Escuela...</li></a>
+        <a href="#"><li>Sobre Nosotros</li></a>
+      </ul>
+
+      <!-- Redes sociales -->
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </nav>
+
+    <!-- ====================== CONTENIDO PRINCIPAL ====================== -->
+    <div class="contenido">
+      <main class="contenido-principal">
+        <section id="todo">
+
+          <!-- ==== PRESENTACION ==== -->
+          <div id="" class="galeria-escuela">
+            <div class="galeria-grid">
+
+              <!-- Intro -->
+              <div class="tarjeta_galeria">
+                <h1>Escuela " aca va nombre de la escuela" de Taekwondo</h1>
+                  <br>
+                  <h2>Aca vas a poder ver alguna imagenes de la escuela y practicas...</h2>
+                    <div class="cont_imagenes">
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img01.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img02.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img03.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img04.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img05.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+
+                      <div class="caja_img">
+                        <a href="#">
+                          <figure>
+                            <img src="imagenes/galeria/img06.jpg" alt="">
+                          </figure>
+                        </a>
+                      </div>
+                    </div>
+              </div>
+
+              <!-- Agregar más aquí -->
+            </div>
+          </div>
+        </section>
+        
+      </main>
+    </div>
+  </div>
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer class="footer">
+    © 2025 TDK Internacional - Esquel. Todos los derechos reservados.
+  </footer>
+</body>
+</html>

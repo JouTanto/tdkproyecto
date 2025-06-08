@@ -80,6 +80,15 @@
     display: none;
   }
 
+  .cont_imagenes {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+  }
+
+  .cont_imagenes .caja_img {
+    height: 200px;
+  }
+
   .footer {
     padding: 0 15px;
     font-size: 14px;
@@ -138,6 +147,15 @@
   .galeria img {
     width: 90%;
     max-width: 280px;
+  }
+
+  .cont_imagenes {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+  }
+
+  .cont_imagenes .caja_img {
+    height: 180px;
   }
 
   .footer {

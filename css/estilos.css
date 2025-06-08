@@ -127,6 +127,7 @@ body {
   position: absolute;
   bottom: 50px;
   left: 50%;
+  border-radius: 50%;
   transform: translateX(-50%);
 }
 
@@ -215,7 +216,8 @@ body {
 }
 
 /* === ESCUELA Y CINTURONES === */
-.tarjeta_escuela, .tarjeta_cinturones, .tarjeta_historia {
+.tarjeta_escuela, .tarjeta_cinturones, 
+.tarjeta_historia, .tarjeta_galeria {
   background: rgba(32, 32, 32, 0.3);
   backdrop-filter: blur(30px);
   border-radius: 12px;
@@ -227,17 +229,20 @@ body {
   transition: transform 0.3s;
 }
 
-.tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
+.tarjeta_escuela img, .tarjeta_cinturones img, 
+.tarjeta_historia img, .tarjeta_galeria img {
   width: 300px;
   border-radius: 8px;
 }
 
-.tarjeta_escuela h3, .tarjeta_cinturones h3, .tarjeta_historia h3 {
+.tarjeta_escuela h3, .tarjeta_cinturones h3, 
+.tarjeta_historia h3, .tarjeta_galeria h3 {
   margin-top: 10px;
   font-size: 1.1em;
 }
 
-.tarjeta_escuela p, .tarjeta_cinturones p, .tarjeta_historia p {
+.tarjeta_escuela p, .tarjeta_cinturones p, 
+.tarjeta_historia p, .tarjeta_galeria p {
   font-weight: normal;
   color: #fff;
 }
@@ -273,6 +278,51 @@ body {
 
 .preformas {
   margin-bottom: 20px;
+}
+
+/* === GALERIA DE IMAGENES ===*/
+.cont_imagenes{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px
+}
+
+.cont_imagenes .caja_img figure{
+  width: 100%;
+  height: 100%;
+}
+
+.cont_imagenes .caja_img {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.cont_imagenes .caja_img:hover {
+  transform: scale(1.02);
+  border: 2px solid #00ffc3; /* Borde verde celeste brillante */
+  box-shadow: 0 0 15px rgba(0, 255, 195, 0.5);
+}
+
+.cont_imagenes .caja_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.cont_imagenes .caja_img:hover img {
+  transform: scale(1.1);
 }
 
 /* === QUIENES SOMOS === */
