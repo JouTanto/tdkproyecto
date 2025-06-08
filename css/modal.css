@@ -17,8 +17,8 @@
 }
 
 .modal img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 90%;
+  height: 90%;
   border-radius: 12px;
 }
 
@@ -31,7 +31,7 @@
 .modal .cerrar {
   position: absolute;
   top: 30px;
-  right: 40px;
+  right: 10px;
   font-size: 50px;
   color: #fff;
   text-decoration: none;
