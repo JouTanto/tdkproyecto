@@ -8,6 +8,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/estilos.css" />
   <link rel="stylesheet" href="css/medias.css" />
+  <link rel="stylesheet" href="css/modal.css" />
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
@@ -74,21 +75,36 @@
                   <br>
                   <h2>Aca vas a poder ver alguna imagenes de la escuela y practicas...</h2>
                     <div class="cont_imagenes">
+
+                      <!--miniatura-->
                       <div class="caja_img">
-                        <a href="#">
+                        <a href="#img01">
                           <figure>
-                            <img src="imagenes/galeria/img01.jpg" alt="">
+                            <img src="imagenes/galeria/img01.jpg" alt="Imagen 1">
                           </figure>
                         </a>
                       </div>
 
+                      <!-- Modal -->
+                      <article class="modal" id="img01">
+                        <a href="#" class="cerrar" aria-label="Cerrar">×</a>
+                          <img src="imagenes/galeria/img01.jpg" alt="Imagen ampliada">
+                      </article>
+
+                      <!--miniatura-->
                       <div class="caja_img">
-                        <a href="#">
+                        <a href="#img02">
                           <figure>
-                            <img src="imagenes/galeria/img02.jpg" alt="">
+                            <img src="imagenes/galeria/img02.jpg" alt="Imagen 2">
                           </figure>
                         </a>
                       </div>
+
+                      <!-- Modal -->
+                      <article class="modal" id="img02">
+                        <a href="#" class="cerrar" aria-label="Cerrar">×</a>
+                          <img src="imagenes/galeria/img02.jpg" alt="Imagen ampliada">
+                      </article>
 
                       <div class="caja_img">
                         <a href="#">

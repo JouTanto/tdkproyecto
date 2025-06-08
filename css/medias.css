@@ -189,6 +189,18 @@
     font-size: 14px;
   }
 
+  /* == MODAL ==*/
+  .modal img {
+    width: 90%;
+    height: auto;
+  }
+
+  .modal .cerrar {
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+  }
+
   /* Evitar desplazamiento de header/footer en móviles */
   #check:checked ~ .contenido .header,
   #check:checked ~ .contenido .footer {
