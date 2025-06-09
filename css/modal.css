@@ -7,6 +7,7 @@
   width: 100%;
   height: 100%;
   background: rgba(12, 12, 12, 0.85);
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,8 +18,10 @@
 }
 
 .modal img {
-  width: 90%;
-  height: 90%;
+  max-width: 90%;
+  max-height: 80vh;
+  width: 100%;
+  height: auto;
   border-radius: 12px;
 }
 
@@ -30,9 +33,9 @@
 /* Botón de cierre */
 .modal .cerrar {
   position: absolute;
-  top: 30px;
-  right: 10px;
-  font-size: 50px;
+  top: 1rem;
+  right: 1rem;
+  font-size: 40px;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
