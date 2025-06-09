@@ -1,6 +1,6 @@
 /* === RESPONSIVE === */
 
-/* === <= 768px === */
+/*======== <= 768px ========*/
 @media (max-width: 768px) {
   html, body {
     overflow-x: hidden;       /* ← solo oculta el scroll horizontal */
