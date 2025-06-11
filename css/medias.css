@@ -95,6 +95,11 @@
     white-space: normal;
     overflow-wrap: break-word;
   }
+
+  .linea_deco img {
+  min-width: 40px;
+  height: 15px;
+}
 }
 
 /*======== <= 480px ========*/
@@ -184,6 +189,11 @@
   .cinturon-item p {
     font-size: 14px;
   }
+
+.linea_deco img {
+  min-width: 40px;
+  height: 10px;
+}
 
   /* Evitar desplazamiento de header/footer en móviles */
   #check:checked ~ .contenido .header,

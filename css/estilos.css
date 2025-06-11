@@ -357,13 +357,20 @@ body {
 }
 
 /* === LÍNEA DECORATIVA === */
-hr {
-  height: 5px;
-  background: linear-gradient(to right, black, white);
-  border: none;
-  width: 100%;
-  border-radius: 10px;
+.linea_deco {
+  width: 100%;         
+  display: flex;
+  justify-content: center; 
+  margin: 2rem 0;      
 }
+
+.linea_deco img {
+  width: 1000px;
+  min-width: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* ==== MODAL PARA LAS IMAGENES ==== */
 .modal {
