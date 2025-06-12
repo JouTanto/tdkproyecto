@@ -85,6 +85,22 @@
     grid-template-rows: 200px;
   }
 
+  .cinturon-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .cinturon-item img {
+    width: 120px;
+  }
+
+  .cinturon-item p {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
   .cont_imagenes .caja_img {
     height: 200px;
   }
@@ -179,15 +195,16 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 8px;
   }
 
   .cinturon-item img {
-    width: 50%;
-    max-width: 200px;
+    width: 100px;
   }
 
   .cinturon-item p {
-    font-size: 14px;
+    font-size: 13px;
+    padding: 0 8px;
   }
 
 .linea_deco img {
