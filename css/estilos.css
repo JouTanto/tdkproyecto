@@ -402,6 +402,11 @@ body {
 .modal:target {
   opacity: 1;
   pointer-events: auto;
+  overflow-y: hidden;
+}
+
+body:has(.modal:target) {
+  overflow: hidden;
 }
 
 /* Botón de cierre */
