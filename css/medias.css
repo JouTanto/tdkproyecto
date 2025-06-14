@@ -204,13 +204,13 @@
     grid-template-rows: 200px;
   }
 
+  .cont_imagenes .caja_img {
+    height: 180px;
+  }
+
   .cont_videos{
     grid-template-columns: 1fr;
     grid-template-rows: 200px;
-  }
-
-  .cont_imagenes .caja_img {
-    height: 180px;
   }
 
   .cont_videos .caja_video {
@@ -223,12 +223,14 @@
     text-align: center;
   }
 
-  .tarjeta_escuela, .tarjeta_cinturones, .tarjeta_historia {
+  .tarjeta_escuela, .tarjeta_cinturones, 
+  .tarjeta_historia, .tarjeta_galeria {
     width: 100%;
     padding: 10px;
   }
 
-  .tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
+  .tarjeta_escuela img, .tarjeta_cinturones img, 
+  .tarjeta_historia img, .tarjeta_galeria img {
     width: 50%;
     max-width: 250px;
   }
@@ -283,6 +285,8 @@
   }
 }
 
+
+
 /* ==================================================================*/
 
 /* === LANDSCAPE: Hasta 768px en modo horizontal === */
@@ -323,16 +327,14 @@
     height: 180px;
   }
 
-  .tarjeta_escuela,
-  .tarjeta_cinturones,
-  .tarjeta_historia {
+  .tarjeta_escuela, .tarjeta_cinturones, 
+  .tarjeta_historia, .tarjeta_galeria {
     width: 45%;
     margin: 10px;
   }
 
-  .tarjeta_escuela img,
-  .tarjeta_cinturones img,
-  .tarjeta_historia img {
+  .tarjeta_escuela img, .tarjeta_cinturones img, 
+  .tarjeta_historia img, .tarjeta_galeria img {
     width: 100%;
     max-width: 250px;
   }
@@ -412,16 +414,14 @@
     height: 160px;
   }
 
-  .tarjeta_escuela,
-  .tarjeta_cinturones,
-  .tarjeta_historia {
+  .tarjeta_escuela, .tarjeta_cinturones, 
+  .tarjeta_historia, .tarjeta_galeria {
     width: 100%;
     padding: 5px;
   }
 
-  .tarjeta_escuela img,
-  .tarjeta_cinturones img,
-  .tarjeta_historia img {
+  .tarjeta_escuela img, .tarjeta_cinturones img, 
+  .tarjeta_historia img, .tarjeta_galeria img {
     width: 80%;
     max-width: 200px;
   }
@@ -462,137 +462,6 @@
 
   .header img {
     height: 60px;
-  }
-}
-
-
-
-
-
-
-/*=================================================================*/
-
-/* ==== MEDIAS INTERMEDIOS === */
-
-/* ==== VERTICAL =====*/
-@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: portrait) {
-  .contenido-principal {
-    padding: 20px;
-    margin-top: 75px;
-  }
-
-  .galeria {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .galeria img {
-    width: 70%;
-    max-width: 320px;
-  }
-
-  .cont_imagenes {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 220px;
-  }
-
-  .cont_imagenes .caja_img {
-    height: 220px;
-  }
-
-  .tarjeta_escuela, .tarjeta_cinturones, .tarjeta_historia {
-    width: 95%;
-    padding: 15px;
-  }
-
-  .tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
-    width: 60%;
-    max-width: 280px;
-  }
-
-  .footer {
-    font-size: 14px;
-    padding: 0 20px;
-  }
-
-  .btn_uno i {
-    font-size: 26px;
-    top: 20px;
-    left: 20px;
-  }
-
-  .header {
-    height: 75px;
-    padding-left: 70px;
-  }
-
-  .header img {
-    height: 60px;
-  }
-}
-
-/* ==== HORIZONTAL ====*/
-@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
-  .contenido-principal {
-    padding: 15px;
-    margin-top: 65px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .galeria {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .galeria img {
-    width: 45%;
-    max-width: 240px;
-  }
-
-  .cont_imagenes {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px;
-    gap: 10px;
-  }
-
-  .cont_imagenes .caja_img {
-    height: 200px;
-  }
-
-  .tarjeta_escuela, .tarjeta_cinturones, .tarjeta_historia {
-    width: 48%;
-    padding: 10px;
-  }
-
-  .tarjeta_escuela img, .tarjeta_cinturones img, .tarjeta_historia img {
-    width: 80%;
-    max-width: 250px;
-  }
-
-  .footer {
-    font-size: 13px;
-    padding: 0 15px;
-    text-align: center;
-  }
-
-  .btn_uno i {
-    font-size: 24px;
-    top: 15px;
-    left: 20px;
-  }
-
-  .header {
-    height: 70px;
-    padding-left: 65px;
-  }
-
-  .header img {
-    height: 55px;
   }
 }
 
