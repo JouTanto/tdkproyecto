@@ -232,7 +232,7 @@
   .tarjeta_escuela img, .tarjeta_cinturones img, 
   .tarjeta_historia img, .tarjeta_galeria img {
     width: 50%;
-    max-width: 250px;
+    max-width: 420px;
   }
 
   .cinturon-item {
