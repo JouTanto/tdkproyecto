@@ -358,6 +358,56 @@ body {
 }
 
 /* ==== GALERIA DE VIDEOS ==== */
+.cont_videos{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px
+}
+
+.cont_videos .caja_video {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.cont_videos .caja_video figure{
+  width: 100%;
+  height: 100%;
+}
+
+.cont_videos .caja_video:hover {
+  transform: scale(1.02);
+  border: 2px solid #00ffc3;
+  box-shadow: 0 0 15px rgba(0, 255, 195, 0.5);
+}
+
+.cont_videos .caja_video img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.cont_videos .caja_video:hover img {
+  transform: scale(1.1);
+}
+
+.galeria-videos {
+  text-align: center;
+  color: white;
+}
+
+/*
 .galeria-videos {
   padding: 2rem;
   text-align: center;
@@ -368,27 +418,30 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
 }
 
-/* Miniatura */
+
 .caja_video {
   width: 320px;
   max-width: 100%;
   cursor: pointer;
+  transform: scale(1.02);
 }
 
 .caja_video img {
   width: 100%;
   border: 2px solid white;
   border-radius: 10px;
+  transition: transform 0.4s ease;
 }
 
-.caja_video figcaption {
-  margin-top: 0.5rem;
-  font-size: 1rem;
+.caja_video img:hover {
+  transform: scale(1.1);
 }
-
+*/
 
 /* === QUIENES SOMOS === */
 .quienes-somos {
@@ -448,11 +501,19 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.modal img, .modal video, 
-.modal_video img, .modal_video video {
-  max-width: 100%;
-  max-height: 90vh;
-  border-radius: 10px;
+.modal img, .modal_video img {
+  max-width: 90%;
+  max-height: 80vh;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.modal video, .modal_video video {
+  max-width: 90%;
+  max-height: 80vh;
+  width: 100%;
+  border-radius: 12px;
 }
 
 .modal:target, .modal_video:target {
@@ -468,7 +529,7 @@ body:has(.modal:target, .modal_video:target) {
 /* Botón de cierre */
 .modal .cerrar, .modal_video .cerrar {
   position: absolute;
-  top: 1rem;
+  top: 15rem;
   right: 1rem;
   font-size: 40px;
   color: #fff;
