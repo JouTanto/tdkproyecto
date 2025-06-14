@@ -3,8 +3,8 @@
 /*======== <= 768px ========*/
 @media (max-width: 768px) {
   html, body {
-    overflow-x: hidden;       /* ← solo oculta el scroll horizontal */
-    overflow-y: auto;         /* ← permite scroll vertical */
+    overflow-x: hidden; 
+    overflow-y: auto;        
     height: auto;
   }
 
@@ -105,6 +105,29 @@
     height: 200px;
   }
 
+  /* Modales de imagen */
+  .modal {
+    width: 95vw;
+    max-height: 100%;
+    padding: 1rem;
+  }
+  .modal img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Modales de video */
+  .modal_video {
+    width: 95vw;
+    max-height: 100%;
+    padding: 1rem;
+  }
+  .modal_video video {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Pie de pagina */
   .footer {
     padding: 0 15px;
     font-size: 14px;
@@ -112,10 +135,11 @@
     overflow-wrap: break-word;
   }
 
+  /* Linea Decorativa */
   .linea_deco img {
   min-width: 40px;
   height: 15px;
-}
+  }
 }
 
 /*======== <= 480px ========*/
@@ -207,10 +231,32 @@
     padding: 0 8px;
   }
 
-.linea_deco img {
-  min-width: 40px;
-  height: 10px;
-}
+  /* Modales de imagen */
+  .modal {
+    width: 95vw;
+    max-height: 100%;
+    padding: 0.5rem;
+  }
+  .modal img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Modales de video */
+  .modal_video {
+    width: 95vw;
+    max-height: 100%;
+    padding: 0.5rem;
+  }
+  .modal_video video {
+    width: 100%;
+    height: auto;
+  }
+
+  .linea_deco img {
+    min-width: 40px;
+    height: 10px;
+  }
 
   /* Evitar desplazamiento de header/footer en móviles */
   #check:checked ~ .contenido .header,
@@ -400,6 +446,11 @@
     height: 60px;
   }
 }
+
+
+
+
+
 
 /*=================================================================*/
 
