@@ -288,6 +288,90 @@
 
 
 /* ==================================================================*/
+/* === LANDSCAPE: Hasta 1024px en modo horizontal === */
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  .menu_desplegable {
+    width: 300px;
+    left: -300px;
+    z-index: 1000;
+  }
+
+  #check:checked ~ .menu_desplegable {
+    left: 0;
+    transition: left 0.3s ease;
+  }
+
+  #check:checked ~ .contenido {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .header {
+    height: 65px;
+    padding: 0 50px 0 70px;
+    font-size: 15px;
+  }
+
+  .header img {
+    height: 55px;
+    width: auto;
+  }
+
+  .btn_uno i {
+    top: 18px;
+    left: 20px;
+    font-size: 26px;
+  }
+
+  .contenido-principal {
+    margin-top: 65px;
+    padding: 18px;
+    margin-bottom: 45px;
+  }
+
+  .contenido-principal p, .contenido-principal h1, 
+  .contenido-principal h2, .contenido-principal h3 {
+    font-size: 15px;
+  }
+
+  .galeria {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .galeria img {
+    width: 25%;
+    max-width: 240px;
+  }
+
+  .cont_imagenes, .cont_videos {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 140px;
+  }
+
+  .cont_imagenes .caja_img,
+  .cont_videos .caja_video {
+    height: 140px;
+  }
+
+  .footer {
+    font-size: 13px;
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .footer .redes a {
+    font-size: 18px;
+    margin: 0 6px;
+  }
+
+  .linea_deco img {
+    min-width: 35px;
+    height: 14px;
+  }
+}
 
 /* === LANDSCAPE: Hasta 768px en modo horizontal === */
 @media screen and (max-width: 768px) and (orientation: landscape) {
