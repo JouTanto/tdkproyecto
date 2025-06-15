@@ -430,8 +430,6 @@
   }
 }
 
-
-
 /* === LANDSCAPE: Hasta 480px en modo horizontal === */
 @media screen and (max-width: 480px) and (orientation: landscape) {
 
