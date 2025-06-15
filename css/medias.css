@@ -296,6 +296,15 @@
     z-index: 1000;
   }
 
+  .menu_desplegable .menu a {
+    font-size: 12px;
+  }
+
+  .menu_desplegable .social {
+    left: 40%;
+    bottom: 45px;
+  }
+
   #check:checked ~ .menu_desplegable {
     left: 0;
     transition: left 0.3s ease;
