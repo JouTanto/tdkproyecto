@@ -448,6 +448,14 @@
     z-index: 1000;
   }
 
+  .menu_desplegable .social {
+    left: 20%;
+  }
+
+  .menu_desplegable .btn_dos i {
+    left: 390px;
+  }
+
   #check:checked ~ .menu_desplegable {
     left: 0;
     transition: left 0.3s ease;
@@ -531,7 +539,7 @@
 
   /* Modales adaptados */
   .modal, .modal_video {
-    width: 80vw;
+    width: 95vw;
     padding: 0.5rem;
   }
 
