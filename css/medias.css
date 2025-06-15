@@ -38,6 +38,10 @@
     font-size: 28px;
   }
 
+  .menu_desplegable .btn_dos i{
+    left: 350px;
+  }
+
   #check:checked ~ .contenido {
     margin-left: 250px;
     width: calc(100% - 250px);
