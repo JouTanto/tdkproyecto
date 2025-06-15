@@ -223,8 +223,7 @@ body {
 }
 
 /* === ESCUELA Y CINTURONES === */
-.tarjeta_escuela, .tarjeta_cinturones, 
-.tarjeta_historia, .tarjeta_galeria {
+.tarjeta_escuela {
   background: rgba(24, 46, 51, 0.7);
   backdrop-filter: blur(30px);
   border-radius: 12px;
@@ -236,20 +235,17 @@ body {
   transition: transform 0.3s;
 }
 
-.tarjeta_escuela img, .tarjeta_cinturones img, 
-.tarjeta_historia img, .tarjeta_galeria img {
+.tarjeta_escuela img {
   width: 300px;
   border-radius: 8px;
 }
 
-.tarjeta_escuela h3, .tarjeta_cinturones h3, 
-.tarjeta_historia h3, .tarjeta_galeria h3 {
+.tarjeta_escuela h3 {
   margin-top: 10px;
   font-size: 1.1em;
 }
 
-.tarjeta_escuela p, .tarjeta_cinturones p, 
-.tarjeta_historia p, .tarjeta_galeria p {
+.tarjeta_escuela p {
   font-weight: normal;
   color: #fff;
 }

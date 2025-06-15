@@ -157,26 +157,26 @@
 
 /*======== <= 480px ========*/
 @media (max-width: 480px) {
-  /* Menú ocupa toda la pantalla y se oculta por defecto */
   .menu_desplegable {
     width: 100%;
     left: -100%;
     z-index: 1000;
   }
 
-  /* Al abrir el menú, el contenido queda completamente oculto */
+  .menu_desplegable .social {
+    bottom: 100px;
+  }
+
   #check:checked ~ .contenido {
     margin-left: 100%;
     width: 0;
   }
 
-  /* Asegurarse de que el contenido ocupe 100% al cerrar el menú */
   .contenido {
     width: 100% !important;
     margin-left: 0 !important;
   }
 
-  /* Ajustes visuales extra para móviles pequeños */
   .header {
     height: 75px;
     padding-left: 70px;
