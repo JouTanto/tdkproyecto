@@ -377,10 +377,10 @@ body {
 .caja_img figure, .caja_video figure {
   width: 100%;
   height: 100%;
+  
 }
 
 .caja_img:hover, .caja_video:hover {
-  transform: scale(1.02);
   border: 2px solid var(--color-borde-hover);
   box-shadow: 0 0 15px var(--color-sombra-hover);
 }
