@@ -423,6 +423,19 @@ body {
 }
 
 /* ================================
+   BIBLIOGRAFIA
+================================ */
+.bibliografia a{
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+.bibliografia a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+/* ================================
    FOOTER
 ================================ */
 .footer {
