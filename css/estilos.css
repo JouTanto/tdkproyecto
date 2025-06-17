@@ -133,6 +133,7 @@ body {
 .menu_desplegable .menu li {
   list-style: none;
   padding: 14px 20px;
+  border-right: 3px solid transparent;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -161,7 +162,7 @@ body {
 ================================ */
 .menu_desplegable .social {
   position: absolute;
-  bottom: 50px;
+  bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
 }
