@@ -287,6 +287,7 @@ body {
 .tarjeta_escuela p {
   font-weight: normal;
   color: var(--color-texto);
+  line-height: 1.6;
 }
 
 .tarjeta_escuela .significado {
