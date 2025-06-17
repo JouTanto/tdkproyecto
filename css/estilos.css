@@ -295,13 +295,23 @@ body {
 }
 
 .tarjeta_escuela .significado {
-  text-align: left;
-  width: 100%;
+  display: flex;              
+  flex-wrap: wrap;            
+  align-items: center;        
+  gap: 50px;                  
+  text-align: justify;        
+  line-height: 1.6;           
+  max-width: 1000px;         
+  margin: 0 auto;             
 }
 
-.tarjeta_escuela .taekwondo {
-  width: 100px;
-  margin-left: 20px;
+.tarjeta_escuela .significado img {
+  width: 100px;               
+  height: auto;
+}
+
+.tarjeta_escuela .significado p {
+  flex: 1;                   
 }
 
 .cinturon-item {
