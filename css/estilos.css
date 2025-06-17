@@ -152,11 +152,6 @@ body {
   box-shadow: 0 0 15px var(--color-sombra-hover);
 }
 
-.menu_desplegable .menu a:focus {
-  outline: 1px solid var(--color-texto);
-  background-color: rgba(255, 69, 69, 0.1);
-}
-
 /* ================================
    REDES SOCIALES
 ================================ */
