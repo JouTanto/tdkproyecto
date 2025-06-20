@@ -153,6 +153,15 @@ body {
 }
 
 /* ================================
+   PRINCIPIOS DEL TAEKWONDO
+================================ */
+.cortesia li, .integridad li{
+  list-style: none;
+  padding: 5px 10px;
+  text-align: left;
+}
+
+/* ================================
    REDES SOCIALES
 ================================ */
 .menu_desplegable .social {
