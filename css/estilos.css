@@ -153,9 +153,21 @@ body {
 }
 
 /* ================================
-   PRINCIPIOS DEL TAEKWONDO
+   PRINCIPIOS, TERMINOS DEL TAEKWONDO
 ================================ */
-.cortesia li, .integridad li{
+.terminologia {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+}
+
+.terminologia .terminos {
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+.cortesia li, .integridad li {
   list-style: none;
   padding: 5px 10px;
   text-align: left;
