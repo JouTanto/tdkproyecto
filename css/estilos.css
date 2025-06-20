@@ -159,12 +159,21 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 20px;
+  margin-bottom: 20px;
 }
 
 .terminologia .terminos {
   position: relative;
   overflow: hidden;
 }
+
+.terminologia .terminos li {
+  list-style: none;
+  padding: 5px 10px;
+  text-align: left;
+  line-height: 1.6;
+}
+
 .cortesia li, .integridad li {
   list-style: none;
   padding: 5px 10px;
