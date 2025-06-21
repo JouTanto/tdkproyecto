@@ -339,12 +339,13 @@ body {
 }
 
 .cinturon-item {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px;
   align-items: center;
-  margin-bottom: 20px;
-  gap: 10px;
-  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 12px;
 }
 
 .cinturon-item img {
@@ -352,10 +353,22 @@ body {
   border-radius: 8px;
 }
 
-.cinturon-item p {
-  max-width: 900px;
+.contenido-cinturon h3 {
+  margin-top: 0;
+}
+
+.contenido-cinturon p {
   font-size: 17px;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.preformas {
+  margin-top: 15px;
+}
+
+.tarjeta_escuela h1 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 /* ================================
