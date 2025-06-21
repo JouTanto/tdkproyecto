@@ -107,13 +107,14 @@
 
   /* === Cinturones === */
   .cinturon-item {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr !important;
+    gap: 15px;
     text-align: center;
     padding: 10px;
   }
 
   .cinturon-item img {
+    margin: 0 auto;
     width: 120px;
   }
 
