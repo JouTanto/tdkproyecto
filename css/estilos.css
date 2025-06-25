@@ -15,7 +15,7 @@
   --color-modal: rgba(12, 12, 12, 0.85);
   --color-quienes-somos: rgba(255, 255, 255, 0.1);
   --color-fondo-body: url(../imagenes/galeria/img04.jpg);
-  --sombra-img: rgba(0, 0, 0, 0.3);
+  --sombra-img: rgba(0, 0, 0, 0.5);
 }
 
 /* ================================
@@ -208,6 +208,52 @@ body {
   box-shadow: 0 0 15px var(--color-sombra-hover);
 }
 
+.ventana-social {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-modal);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+.ventana-social:target {
+  display: flex;
+}
+
+.contenido-social {
+  background: var(--color-quienes-somos);
+  padding: 20px 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(15px);
+  max-width: 400px;
+  width: 90%;
+  color: var(--color-texto);
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 15px var(--color-sombra-hover);
+}
+
+.cerrar-social {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+.cerrar-social:hover {
+  color: var(--color-borde-hover);
+  text-shadow: 0 0 10px var(--color-sombra-hover);
+}
+
+
 /* ================================
    TRANSICIONES DE MENÚ
 ================================ */
@@ -293,12 +339,13 @@ body {
 .tarjeta_escuela {
   background: var(--color-tarjeta);
   backdrop-filter: blur(30px);
-  border-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   padding: 15px;
   width: 1000px;
   text-align: center;
   color: var(--color-texto);
-  box-shadow: 0 0 10px var(--sombra-img);
+  box-shadow: 0 0 15px var(--sombra-img);
   transition: transform 0.3s;
 }
 
@@ -518,7 +565,8 @@ body {
   width: 100%;
   height: 100%;
   background: var(--color-modal);
-  border-radius: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   display: flex;
   justify-content: center;
   padding-top: 100px;
@@ -536,7 +584,8 @@ body {
   width: 100%;
   height: 100%;
   background: var(--color-modal);
-  border-radius: 10px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   display: flex;
   justify-content: center;
   align-items: center; /* Centra verticalmente */
