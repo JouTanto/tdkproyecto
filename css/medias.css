@@ -123,28 +123,19 @@
     padding: 0 10px;
   }
 
-  /* === Modales (Imagen) === */
-  .modal {
-    width: 95vw;
-    max-height: 100%;
+  /* === Modales (Imagen)(Video) === */
+  .modal, .modal_video {
+    display: flex;
+    justify-content: center;
     padding: 1rem;
   }
 
-  .modal img {
-    width: 100%;
+  .modal img, .modal_video video {
+    max-width: 95vw;
+    max-height: 80vh;
+    width: auto;
     height: auto;
-  }
-
-  /* === Modales (Video) === */
-  .modal_video {
-    width: 95vw;
-    max-height: 100%;
-    padding: 1rem;
-  }
-
-  .modal_video video {
-    width: 100%;
-    height: auto;
+    object-fit: contain;
   }
 
   /* === Footer === */
@@ -259,14 +250,15 @@
 
   /* === Modales === */
   .modal, .modal_video {
-    width: 95vw;
-    max-height: 100%;
     padding: 0.5rem;
   }
 
   .modal img, .modal_video video {
+    max-width: 95vw;
+    max-height: 75vh;
     width: 100%;
     height: auto;
+    object-fit: contain;
   }
 
   /* === Footer === */
