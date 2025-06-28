@@ -119,12 +119,12 @@
   }
 
   .modal{
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 15px;
   }
 
   .modal_video {
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 20px;
   }
 
@@ -270,12 +270,12 @@
   }
 
   .modal{
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 15px;
   }
 
   .modal_video {
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 20px;
   }
 
@@ -418,12 +418,12 @@
   }
 
   .modal{
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 15px;
   }
 
   .modal_video {
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 15px;
   }
 

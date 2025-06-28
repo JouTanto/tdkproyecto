@@ -130,12 +130,12 @@
   }
   
   .modal{
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 50px;
   }
 
   .modal_video {
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 50px;
   }
 
@@ -263,12 +263,12 @@
   }
 
   .modal{
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 50px;
   }
 
   .modal_video {
-    align-items: self-start;
+    align-items: flex-start;
     padding-top: 50px;
   }
 
