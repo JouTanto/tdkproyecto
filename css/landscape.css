@@ -118,8 +118,13 @@
     padding: 0.5rem;
   }
 
+  .modal{
+    align-items: self-start;
+    padding-top: 15px;
+  }
+
   .modal_video {
-    align-items: flex-start;
+    align-items: self-start;
     padding-top: 20px;
   }
 
@@ -264,8 +269,13 @@
     padding: 0.5rem;
   }
 
+  .modal{
+    align-items: self-start;
+    padding-top: 15px;
+  }
+
   .modal_video {
-    align-items: flex-start;
+    align-items: self-start;
     padding-top: 20px;
   }
 
@@ -408,12 +418,12 @@
   }
 
   .modal{
-    align-items: flex-start;
+    align-items: self-start;
     padding-top: 15px;
   }
 
   .modal_video {
-    align-items: flex-start;
+    align-items: self-start;
     padding-top: 15px;
   }
 
