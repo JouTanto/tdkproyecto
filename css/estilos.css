@@ -628,9 +628,9 @@ body:has(.modal:target, .modal_video:target) {
 /* Botón de cierre */
 .modal .cerrar, .modal_video .cerrar {
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 1rem;
-  font-size: 30px;
+  font-size: 40px;
   color: var(--color-texto);
   text-decoration: none;
   font-weight: bold;

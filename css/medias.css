@@ -131,7 +131,7 @@
   
   .modal{
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .modal_video {
@@ -145,6 +145,11 @@
     width: 100%;
     height: auto;
     object-fit: contain;
+  }
+
+  .modal .cerrar, .modal_video .cerrar {
+    top: 2rem;
+    font-size: 35px;
   }
 
   /* === Footer === */
@@ -264,7 +269,7 @@
 
   .modal{
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .modal_video {
@@ -280,6 +285,9 @@
     object-fit: contain;
   }
 
+  .modal .cerrar, .modal_video .cerrar {
+    font-size: 30px;
+  }
 
   /* === Footer === */
   .footer {
