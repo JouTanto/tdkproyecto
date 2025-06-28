@@ -136,7 +136,7 @@
 
   .modal_video {
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .modal img, .modal_video video {
@@ -148,7 +148,7 @@
   }
 
   .modal .cerrar, .modal_video .cerrar {
-    top: 2rem;
+    top: 4rem;
     font-size: 35px;
   }
 
@@ -274,7 +274,7 @@
 
   .modal_video {
     align-items: flex-start;
-    padding-top: 50px;
+    padding-top: 100px;
   }
 
   .modal img, .modal_video video {
