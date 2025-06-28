@@ -629,7 +629,7 @@ body:has(.modal:target, .modal_video:target) {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 40px;
+  font-size: 30px;
   color: var(--color-texto);
   text-decoration: none;
   font-weight: bold;

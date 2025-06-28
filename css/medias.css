@@ -128,11 +128,21 @@
     justify-content: center;
     padding: 1rem;
   }
+  
+  .modal{
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+
+  .modal_video {
+    align-items: flex-start;
+    padding-top: 50px;
+  }
 
   .modal img, .modal_video video {
     max-width: 95vw;
     max-height: 80vh;
-    width: auto;
+    width: 100%;
     height: auto;
     object-fit: contain;
   }
@@ -252,6 +262,16 @@
     padding: 0.5rem;
   }
 
+  .modal{
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+
+  .modal_video {
+    align-items: flex-start;
+    padding-top: 50px;
+  }
+
   .modal img, .modal_video video {
     max-width: 95vw;
     max-height: 75vh;
@@ -259,6 +279,7 @@
     height: auto;
     object-fit: contain;
   }
+
 
   /* === Footer === */
   .footer {
