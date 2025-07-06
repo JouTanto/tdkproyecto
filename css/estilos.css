@@ -62,14 +62,31 @@ body {
   color: var(--color-texto);
   display: flex;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 25px;
+  justify-content: space-between;
   gap: 20px;
   z-index: 800;
 }
 
-.header img {
-  width: 170px;
-  border-radius: 10px;
+.grupo-centro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-izquierda img {
+  width: 160px;
+  max-width: 45vw;
+}
+
+.img-derecha-header {
+  margin-left: auto;
+}
+
+.img-derecha-header img {
+  width: 90px;
+  max-width: 20vw;
+  opacity: 0.5;
 }
 
 /* ================================
@@ -112,7 +129,14 @@ body {
   backdrop-filter: blur(15px);
   transition: all 0.3s ease;
   z-index: 900;
-}
+
+  /*fondo decorativo */
+  background-image: url('../imagenes/png/pngegg4.png');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size:contain;
+  background-blend-mode:overlay;
+  }
 
 .menu_desplegable .btn_dos i {
   font-size: 25px;

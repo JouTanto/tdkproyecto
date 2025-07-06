@@ -56,9 +56,16 @@
     font-size: 15px;
   }
 
-  .header img {
-    height: 55px;
-    width: auto;
+  .grupo-centro {
+    gap: 10px;
+  }
+
+  .logo-izquierda img {
+    width: 90px;
+  }
+
+  .img-derecha-header img {
+    width: 65px;
   }
 
   .btn_uno i {
@@ -208,9 +215,16 @@
     font-size: 14px;
   }
 
-  .header img {
-    height: 50px;
-    width: auto;
+  .grupo-centro {
+    gap: 10px;
+  }
+
+  .logo-izquierda img {
+    width: 90px;
+  }
+
+  .img-derecha-header img {
+    width: 65px;
   }
 
   .btn_uno i {
@@ -364,9 +378,16 @@
     font-size: 13px;
   }
 
-  .header img {
-    height: 45px;
-    width: auto;
+  .grupo-centro {
+    gap: 10px;
+  }
+
+  .logo-izquierda img {
+    width: 90px;
+  }
+
+  .img-derecha-header img {
+    width: 65px;
   }
 
   .btn_uno i {
