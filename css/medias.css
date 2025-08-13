@@ -73,6 +73,7 @@
 
   .img-derecha-header img {
     width: 70px;
+    margin-left: 20px;
   }
 
   /* === Contenido principal === */
@@ -209,11 +210,12 @@
   }
 
   .logo-izquierda img {
-    width: 90px;
+    width: 80px;
   }
 
   .img-derecha-header img {
-    width: 60px;
+    width: 50px;
+    margin-left: 10px;
   }
 
   .btn_uno i {
