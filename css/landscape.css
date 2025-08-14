@@ -49,6 +49,13 @@
     width: 100%;
   }
 
+  /* === Terminos === */
+  .terminos {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
+  }
+
   /* === Header === */
   .header {
     height: 80px;
@@ -206,6 +213,13 @@
   #check:checked ~ .contenido {
     margin-left: 0;
     width: 100%;
+  }
+
+  /* === Terminos === */
+  .terminos {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr;
   }
 
   /* === Header === */
@@ -369,6 +383,13 @@
   #check:checked ~ .contenido {
     margin-left: 0;
     width: 100%;
+  }
+
+  /* === Terminos === */
+  .terminos {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+    grid-template-columns: 1fr;
   }
 
   /* === Header === */

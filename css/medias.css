@@ -61,6 +61,13 @@
     transition: transform 0.3s ease;
   }
 
+  /* === Terminos ===*/
+  .terminos {
+    grid-auto-flow: row; /* Cambiar a flujo normal en móvil */
+    grid-template-rows: none; /* Quitar límite de filas */
+    grid-template-columns: 1fr; /* Una sola columna */
+  }
+
   /* === Header === */
   .header {
     height: 80px;
@@ -201,6 +208,13 @@
   .contenido {
     width: 100% !important;
     margin-left: 0 !important;
+  }
+
+  /* === Terminos ===*/
+  .terminos {
+    grid-auto-flow: row; /* Cambiar a flujo normal en móvil */
+    grid-template-rows: none; /* Quitar límite de filas */
+    grid-template-columns: 1fr; /* Una sola columna */
   }
 
   /* === Header === */
