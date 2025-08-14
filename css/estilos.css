@@ -668,3 +668,12 @@ body:has(.modal:target, .modal_video:target) {
   color: var(--color-borde-hover);
   text-shadow: 0 0 10px var(--color-sombra-hover);
 }
+
+/* ================================
+   FILOSOFIA
+================================ */
+.cortesia li, .integridad li {
+  list-style: none;
+  color: #fff;
+  text-align: left;
+}
