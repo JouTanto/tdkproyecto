@@ -675,5 +675,6 @@ body:has(.modal:target, .modal_video:target) {
 .cortesia li, .integridad li {
   list-style: none;
   color: #fff;
+  padding-bottom: 10px;
   text-align: left;
 }
