@@ -444,6 +444,14 @@ body {
   margin-bottom: 10px;
 }
 
+.tecnicas{
+  list-style: none;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+}
+
 /* ================================
    SECCIÓN SABONES / INSTRUCTORES
 ================================ */
